@@ -21,6 +21,8 @@
 		B1CD143419598CBC009C1AAB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1CD141619598CBC009C1AAB /* UIKit.framework */; };
 		B1CD143C19598CBC009C1AAB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1CD143A19598CBC009C1AAB /* InfoPlist.strings */; };
 		B1CD143E19598CBC009C1AAB /* thumbnailpickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CD143D19598CBC009C1AAB /* thumbnailpickerTests.m */; };
+		B1CD144919598F75009C1AAB /* Thumbnailpicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CD144819598F75009C1AAB /* Thumbnailpicker.m */; };
+		B1CD144C19598FFC009C1AAB /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CD144B19598FFC009C1AAB /* View.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		B1CD143919598CBC009C1AAB /* thumbnailpickerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "thumbnailpickerTests-Info.plist"; sourceTree = "<group>"; };
 		B1CD143B19598CBC009C1AAB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B1CD143D19598CBC009C1AAB /* thumbnailpickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = thumbnailpickerTests.m; sourceTree = "<group>"; };
+		B1CD144719598F75009C1AAB /* Thumbnailpicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thumbnailpicker.h; sourceTree = "<group>"; };
+		B1CD144819598F75009C1AAB /* Thumbnailpicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Thumbnailpicker.m; sourceTree = "<group>"; };
+		B1CD144A19598FFC009C1AAB /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		B1CD144B19598FFC009C1AAB /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,8 @@
 		B1CD140619598CBC009C1AAB = {
 			isa = PBXGroup;
 			children = (
+				B1CD144719598F75009C1AAB /* Thumbnailpicker.h */,
+				B1CD144819598F75009C1AAB /* Thumbnailpicker.m */,
 				B1CD141819598CBC009C1AAB /* thumbnailpicker */,
 				B1CD143719598CBC009C1AAB /* thumbnailpickerTests */,
 				B1CD141119598CBC009C1AAB /* Frameworks */,
@@ -115,6 +123,8 @@
 				B1CD142119598CBC009C1AAB /* AppDelegate.h */,
 				B1CD142219598CBC009C1AAB /* AppDelegate.m */,
 				B1CD142419598CBC009C1AAB /* Main.storyboard */,
+				B1CD144A19598FFC009C1AAB /* View.h */,
+				B1CD144B19598FFC009C1AAB /* View.m */,
 				B1CD142719598CBC009C1AAB /* ViewController.h */,
 				B1CD142819598CBC009C1AAB /* ViewController.m */,
 				B1CD142A19598CBC009C1AAB /* Images.xcassets */,
@@ -249,8 +259,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1CD144C19598FFC009C1AAB /* View.m in Sources */,
 				B1CD142919598CBC009C1AAB /* ViewController.m in Sources */,
 				B1CD142319598CBC009C1AAB /* AppDelegate.m in Sources */,
+				B1CD144919598F75009C1AAB /* Thumbnailpicker.m in Sources */,
 				B1CD141F19598CBC009C1AAB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -458,6 +470,7 @@
 				B1CD144319598CBC009C1AAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1CD144419598CBC009C1AAB /* Build configuration list for PBXNativeTarget "thumbnailpickerTests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +479,7 @@
 				B1CD144619598CBC009C1AAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
